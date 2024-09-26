@@ -1,63 +1,49 @@
-// INTRO JAVASCRIPT - THE LET KEYWORD - PART 1 //
-
-let greeting = 'God Morgen Kodeloftet';
-
-// "let" er ett nøkkelord for å lage en ny variabel //
-// "greeting" er et vavlgfritt navn //
-// "=" lagrer verdien på høyre side i navnet på venstre
-// 'God Morgen Kodeloftet' er verdien som blir lagret
-
-// INTRO JAVASCRIPT - THE LOG() METHOD //
-
+console.log("Hello world!");
+let greeting = "Hello world!";
 console.log(greeting);
 
-// Skriver innholdet i "greeting" variablen til konsollen
-// log() method writes (logs) a message to the console //
+// The log() method writes (logs) a message to the console.
+// The log() method is useful for testing purposes.
 
-// INTRO JAVASCRIPT - THE LET KEYWORD - PART 2 //
+
+// Here x is 10
 
 let numberA = 10;
-let numberB = 32;
-
 console.log('Tall A:');
 console.log(numberA);
 
+// Here x is 32
+
+let numberB = 32;
 console.log('Tall B:');
 console.log(numberB);
 
-// INTRO JAVASCRIPT - THE LET KEYWORD - PART 3 //
+// Demo
 
 let numberC = numberA / numberB + numberA - numberB;
 
 console.log('Tall C:');
 console.log(numberC);
 
-// INTRO JAVASCRIPT - STRINGS ( TEXT) //
+// A JavaScript string is zero or more characters written inside quotes //
 
 let stringA = 'Hello';
 let stringB = 'World';
 let stringC = `!!!`;
 
 let stringD = " Lets 'Go'!";
-
-// A JavaScript string is zero or more characters written inside quotes //
-
 console.log(stringD);
 
-// INTRO JAVASCRIPT - THE LET KEYWORD - PART 4 //
 
 let newLine = 'Hello\n\n\nWorld';
 console.log(newLine);
-let multiLine = `
-Testing
-testing
-testing
-`;
+
+
+let multiLine = `Testing testing testing`;
 console.log(multiLine);
 
-let a = 10;
 
-// INTRO JAVASCRIPT - BOLEANS //
+let a = 10;
 
 let boolTrue = true;
 let boolFalse = false;
@@ -88,11 +74,9 @@ let doesNotYetHaveValue = null;
 console.log('The following does not yet have a value:');
 console.log(doesNotYetHaveValue);
 
-// INTRO JAVASCRIPT - ARRAYS //
+// A JavaScript array is a special variable, which can hold more than one value //
 
 let arrayA = ['Per', 'Pål', 'Espens', 'Martha'];
-
-// A JavaScript array is a special variable, which can hold more than one value //
 
 console.log('This is a array (list)');
 console.log(arrayA);
