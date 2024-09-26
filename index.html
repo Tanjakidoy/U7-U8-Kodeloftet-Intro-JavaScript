@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
-  </head>
+    </head>
 
   <body>
     <header>
@@ -24,7 +24,22 @@
       </ul>
       <p>Variables are containers for storing data.<p>
 
-      <h1>JavaScript Event Handling</h1>
+      <h1>JavaScript Functions and Events</h1>
+      <p>A JavaScript function is a block of JavaScript code, that can be executed when "called" for.<br>For example, a function can be called when an event occurs, like when the user clicks a button.</p>
+
+      <h2>Demo JavaScript in Body</h2>
+
+<p id="demo">A Paragraph</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+
+
   </main>
     <footer>
       <p>&copy Kodeloftet - Gruppe 9</p>
