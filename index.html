@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>JavaScript Event Handling</title>
+    <title>Intro JavaScript</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
@@ -10,11 +10,18 @@
 
   <body>
     <header>
-      <h1>JavaScript linking</h1>
+
+      <nav>              
+        <a href="/" aria-current="page">Home</a>
+        <a href="/page2.html">Intro JavasScript Exercise (U7 & U8)</a>
+        </nav>
+      </header>
+
+      <main>
+      <h2>JavaScript linking</h2>
       <p>To connect an HTML file to a JavaScript file, you will need to use a script tag in your HTML file.<br> Inside the script tag, you can either write your JavaScript code directly or you can refer to an external JavaScript file using the src attribute.</p>
-    </header>
-    <main>
-      <h1>JavaScript variables</h1>
+   
+      <h2>JavaScript variables</h2>
       <p>JavaScript variables can be declared in 4 ways:</p>
       <ul>
         <li>Automatically</li>
@@ -24,10 +31,83 @@
       </ul>
       <p>Variables are containers for storing data.<p>
 
-      <h1>JavaScript functions and events</h1>
+
+      <h4>Variable Declaration using the keyword let:</h4>
+
+      <p>let numberA = 10;</p>
+      <p>console.log('Tall A:'); (Logging a string)<br>
+      console.log(numberA); (Logging a variable)</p>
+
+      <p>let numberB = 32;</p>
+      <p>console.log('Tall B:'); (Logging a string)<br>
+      console.log(numberB); (Logging a variable)</p>
+
+      <p>let numberC = numberA / numberB + numberA - numberB;</p>
+      <p>console.log('Tall C:');<br>
+      console.log(numberC);</p>
+
+      <p>Final Result: numberC=<br>
+        −21.6875</p>
+
+      <h4>Different types of variables in JavaScript:</h4>
+
+      <ul>
+        <li>String - stores text, such as "Hello". String values are surrounded by double quotes</li>
+        <li>int - stores integers (whole numbers), without decimals, such as 123 or -123</li>
+        <li>float - stores floating point numbers, with decimals, such as 19.99 or -19.99</li>
+        <li>char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes</li>
+        <li>boolean - stores values with two states: true or false</li>
+      </ul>
+
+
+
+
+
+
+
+
+      <h2>Javascript Console log method</h2>
+
+      <p>The log() method writes (logs) a message to the console.</p>
+      <p>The log() method is useful for testing purposes.</p>
+
+      <h4>Exsample 1:</h4>
+      
+      <p>console.log("Hello world!");</p>
+
+      <p>This line uses the console.log() function to print the string "Hello world!" to the console.</p>
+      
+      <h4>Exsample 2:</h4>
+
+      <p>let greeting = "Hello world!";<br>
+      console.log(greeting);</p>
+      <p>This line logs the value of the variable greeting to the console.</p>
+
+      <h2>JavaScript Strings</h2>
+      <p>A JavaScript string is zero or more characters written inside quotes.</p>
+
+      <h4>Exsample:</h4>
+      <p>let stringA = 'Hello';<br>
+      let stringB = 'World';<br>
+      let stringC = `!!!`;</p>
+
+      <p>let stringD = " Lets 'Go'!";<br>
+      console.log(stringD);</p>
+
+
+
+
+
+
+
+
+
+
+
+      <h2>JavaScript functions and events</h2>
       <p>A JavaScript function is a block of JavaScript code, that can be executed when "called" for.<br>For example, a function can be called when an event occurs, like when the user clicks a button.</p>
 
-      <h1>Demo JavaScript in Body</h1>
+      <h2>Demo JavaScript in Body</h2>
 
 <p id="demo">A Paragraph</p>
 
@@ -40,7 +120,9 @@ function myFunction() {
 </script>
 
 
-<h1>Demo JavaScript variables</h1>
+
+
+
 
 
 
