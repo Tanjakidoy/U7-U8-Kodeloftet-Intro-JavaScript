@@ -1,16 +1,14 @@
 function loginCheck(username, currentHour, isLoggedIn) {
-  if (isLoggedIn) 
-    {
-    console.log("Login successful!");
+  if (isLoggedIn) {
+      console.log("Login successful!");
       console.log("Username: " + username);
       console.log("Logged in at: " + currentHour + " hours.");
-  } 
-    else {
+  } else {
       console.log("Login failed. Please try again.");
   }
 }
 
-const username = "Tanja";
+const username = "aliceWonder";
 let currentHour = new Date().getHours();
 let isLoggedIn = true;
 
