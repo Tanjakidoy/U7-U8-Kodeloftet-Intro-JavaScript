@@ -65,6 +65,9 @@ ul {
   padding: 1rem;
 }
 
+a {
+  color: blue;
+}
 footer {
   text-align: center;
   background-color: rgb(190, 190, 190);
