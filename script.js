@@ -10,7 +10,7 @@ function loginCheck(username, currentHour, isLoggedIn) {
   }
 }
 
-const username = "aliceWonder";
+const username = "Tanja";
 let currentHour = new Date().getHours();
 let isLoggedIn = true;
 
