@@ -1,26 +1,27 @@
 /* UNDERVISNING 7-8 : INTRO JAVASCRIPT */
 
 function loginCheck(username, currentHour, isLoggedIn) // Function er en blokk med kode som kan kalles ved å bruke funksjonsnavnet
+{ 
+  if (isLoggedIn)  // Boolean representerer enten sann (true) eller usann (false) 
 
-{
-  if (isLoggedIn) // Boolean representerer enten sann (true) eller usann (false) 
+// The log() method writes (logs) a message to the console 
     
 { 
-    console.log("Login successful!"); // The log() method writes (logs) a message to the console 
-    console.log("Username: " + username); // The log() method writes (logs) a message to the console 
-    console.log("Logged in at: " + currentHour + " hours."); // The log() method writes (logs) a message to the console 
-  } 
-  
+  console.log("Login successful!"); 
+  console.log("Username: " + username); 
+  console.log("Logged in at: " + currentHour + " hours.");  
+}
   else // Boolean representerer enten sann (true) eller usann (false)
-  {
-      console.log("Login failed. Please try again."); 
+    
+{ 
+  console.log("Login failed. Please try again."); 
   }
 }
 
 const username = "Tanja"; // const er en variabel som ikke kan endres etter den er tildelt 
 
 /*
-"username" er et vavlgfritt navn. 
+"username" er et valgfritt navn. 
 "=" lagrer verdien på høyre side i navnet på venstre side.
 "Tanja" er verdien som blir lagret
 */
