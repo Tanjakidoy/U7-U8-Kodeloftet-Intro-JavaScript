@@ -33,7 +33,7 @@ Når vi skriver "new Date()", får vi et objekt som representerer nøyaktig dato
 Når vi skriver ".getHours" brukes det en metode som henter (eller "returnerer") timen fra Date-objektet.
 */
 
-let isLoggedIn = true; // Når isLoggedIn er satt til true, betyr det at brukeren i dette tilfellet er logget inn.
+let isLoggedIn = true; // Når "isLoggedIn" er satt til "true", betyr det at brukeren i dette tilfellet er logget inn.
 
 /* 
 "let" er ett nøkkelord for å lage en ny variabel. ("let" er en variabel som kan endres etter den er tildelt verdi.
