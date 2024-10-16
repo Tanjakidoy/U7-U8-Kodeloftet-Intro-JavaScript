@@ -29,5 +29,6 @@ const username = "Tanja"; // const er en variabel som ikke kan endres etter den 
 let currentHour = new Date().getHours(); // ) 
 let isLoggedIn = true; // 
 
-/* "let" er ett nøkkelord for å lage en ny variabel. ("let" er en variabel som kan endres etter den er tildelt verdi.
+/* 
+"let" er ett nøkkelord for å lage en ny variabel. ("let" er en variabel som kan endres etter den er tildelt verdi.
 */
