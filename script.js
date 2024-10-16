@@ -4,28 +4,28 @@ function loginCheck(username, currentHour, isLoggedIn) // Function er en blokk m
 
 {
   if (isLoggedIn) // Boolean representerer enten sann (true) eller usann (false) 
-
-/* The log() method writes (logs) a message to the console */    
+    
 { 
-    console.log("Login successful!");
-    console.log("Username: " + username);
-    console.log("Logged in at: " + currentHour + " hours.");
+    console.log("Login successful!"); // The log() method writes (logs) a message to the console 
+    console.log("Username: " + username); // The log() method writes (logs) a message to the console 
+    console.log("Logged in at: " + currentHour + " hours."); // The log() method writes (logs) a message to the console 
   } 
   
-  else {
-      console.log("Login failed. Please try again."); // Boolean representerer enten sann (true) eller usann (false)
+  else // Boolean representerer enten sann (true) eller usann (false)
+  {
+      console.log("Login failed. Please try again."); 
   }
 }
 
-/* 
-const er en variabel som ikke kan endres etter den er tildelt 
-*/
-const username = "Tanja"; // "Tanja" er et vavlgfritt navn
+const username = "Tanja"; // const er en variabel som ikke kan endres etter den er tildelt 
 
-/* 
-"let" er ett nøkkelord for å lage en ny variabel. ("let" er en variabel som kan endres etter den er tildelt verdi.)
+/*
+"username" er et vavlgfritt navn. 
+"=" lagrer verdien på høyre side i navnet på venstre side.
+"Tanja" er verdien som blir lagret
 */
-let currentHour = new Date().getHours(); // 
-let isLoggedIn = true;
+
+let currentHour = new Date().getHours(); // "let" er ett nøkkelord for å lage en ny variabel. ("let" er en variabel som kan endres etter den er tildelt verdi.) 
+let isLoggedIn = true; // "let" er ett nøkkelord for å lage en ny variabel. ("let" er en variabel som kan endres etter den er tildelt verdi.) 
 
 loginCheck(username, currentHour, isLoggedIn);
