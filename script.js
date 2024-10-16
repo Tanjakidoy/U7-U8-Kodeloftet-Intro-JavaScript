@@ -17,10 +17,15 @@ function loginCheck(username, currentHour, isLoggedIn) // Function er en blokk m
   }
 }
 
-/* const er en variabel som ikke kan endres etter den er tildelt */
-const username = "Tanja";
-/* let er en variabel som kan endres etter den er tildelt verdi */
-let currentHour = new Date().getHours();
+/* 
+const er en variabel som ikke kan endres etter den er tildelt 
+*/
+const username = "Tanja"; // "Tanja" er et vavlgfritt navn
+
+/* 
+"let" er ett nøkkelord for å lage en ny variabel. ("let" er en variabel som kan endres etter den er tildelt verdi.)
+*/
+let currentHour = new Date().getHours(); // 
 let isLoggedIn = true;
 
 loginCheck(username, currentHour, isLoggedIn);
